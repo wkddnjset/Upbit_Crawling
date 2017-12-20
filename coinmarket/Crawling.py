@@ -74,7 +74,7 @@ while(1):
     savetime = datetime.datetime.fromtimestamp(ts).strftime('%H:%M:%S')
     print("현재시간 : ",savetime)
     time.sleep(1)
-    if savetime == "00:19:00":
+    if savetime == "10:55:00":
         print("크롤링 진행중 ...")
         a = crawling(url)
         print(" CSV 저장중 ...")
